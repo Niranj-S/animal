@@ -32,7 +32,7 @@ def input_image_setup(uploaded_file):
 
 st.set_page_config(page_title="Animal Detection App")
 
-st.header("Food recipe App")
+st.header("Animal Detection App")
 st.write("upload the food image and you'll find out information about the animal :)")
 input=''
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
